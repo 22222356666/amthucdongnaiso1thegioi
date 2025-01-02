@@ -1,0 +1,468 @@
+*{  padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+}
+max-width: 400px;
+height: auto;
+}
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: 100vh;
+}
+.logo { width=50px; height=50px}
+#header {
+    width: 80%;
+    padding:0px 40px;
+    margin-top:33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#menu {
+    margin-left:250px;
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:20px 25px;
+}
+
+#menu .item a {
+    color: #626A67;
+    text-decoration: none;
+}
+#actions { 
+  
+    display: flex;
+}
+
+.item {
+    display:flex;
+    margin-left:1px;
+    margin-right:1px;
+}
+
+#banner {
+    width: 100%;
+    background-image :url("https://haycafe.vn/wp-content/uploads/2022/03/Hinh-nen-que-huong-mien-Tay.jpg");
+    height: 550px;
+    margin-top:40px;
+    display: flex;
+    padding:40px 133px;
+    position:relative;    opacity: 0.9 ;   background-repeat:no-repeat; background-size: 100%; 
+}
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+
+#banner  .box-left h2 {
+    font-size:90px;
+    margin-top:50px;
+    color:rgb(255, 179, 0); 
+}
+
+#banner .box-left p { font-size:20px;
+      color: #111111;
+}
+
+#banner .box-left button {
+    width: 150px;
+    height: 40px;
+    margin-top:20px;
+    background:#1d1a1a;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+}
+
+#banner .box-left button:hover {
+    background:#333333;
+}
+
+.to-bottom {
+    position:absolute;
+    bottom:-40px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#hehe { padding-top:90px;
+    padding-bottom: 50px;
+    padding-left:134px;
+    padding-right:134px;
+     text-align: center;
+    margin-bottom: 1px;
+    font-size:32px;
+    color:#1C1C1C;}
+
+.container1 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container1 { flex: 1;                         position:relative;
+    top:-65px;
+    text-align: center ;
+    line-height:30px;
+    padding: 20px;
+    padding-top:140px;
+    font-size:20px}
+#ha1 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 1px
+}
+
+
+.container2 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container2 { flex: 1;                         position:relative;
+    top:-65px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha2 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+#backgroundne {
+    width: 100%;
+    background-image :url("https://png.pngtree.com/background/20221025/original/pngtree-brown-simple-background-picture-image_1921507.jpg");
+    height:  ;
+    margin-top:40px;
+    position:relative;      
+    background-repeat:no-repeat; 
+    background-size: 320%; 
+}
+
+.container3 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container3 { flex: 1;                         position:relative;
+    top:-65px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha3 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+.container4 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container4 { flex: 1;                         position:relative;
+    top:-65px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha4 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+.container5 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container5 { flex: 1;                         position:relative;
+    top:-68px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha5 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+.container6 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container6 { flex: 1;                         position:relative;
+    top:-58px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha6 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+.container7 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container7 { flex: 1;                         position:relative;
+    top:-58px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha7 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+.container8 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container8 { flex: 1;                         position:relative;
+    top:-58px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha8 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+.container9 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container9 { flex: 1;                         position:relative;
+    top:-68px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha9 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+.container10 {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;    
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+.text-container10 { flex: 1;                         position:relative;
+    top:-68px;
+    text-align: center ;
+    line-height:30px;
+    padding: 10px;
+    padding-top:140px;
+    font-size:20px}
+#ha10 button {
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    background:#1C1C1C;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+    margin-left: 5px
+}
+
+
+#footer {
+    width: 100%;
+    background:rgb(0,0,0,0.79);
+    height: 250px;
+    margin-top:300px;
+    padding:0px 63px;
+    padding-top:57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .box {
+    width: 250px;
+    color:#fff;
+}
+
+#footer .box .quick-menu {
+    margin-top:40px;
+
+}
+
+
+#footer .box .quick-menu .item{
+    margin-bottom:12px;
+
+}
+#footer .box .quick-menu ,.item a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:30px;
+}
+
+#footer .box form button {
+    background:#362f2f;
+    box-shadow: 8px 6px 8px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    margin-top:29px;
+    color:#fff;
+}
